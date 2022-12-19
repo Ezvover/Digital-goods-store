@@ -1,0 +1,585 @@
+
+@font-face {
+    font-family: "Gilroy-bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-semibold";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Gilroy-Semibold.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-medium";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+h1
+{
+    font-family: "Gilroy-bold";
+}
+
+h3{
+    font-family: "Gilroy-bold";
+}
+
+h4{
+    font-family: "Gilroy-bold";
+}
+
+p{
+    font-family: "Gilroy-bold";
+}
+
+a
+{
+    font-family: "Gilroy-bold";
+}
+
+p{
+    font-family: "Gilroy-semibold";
+}
+
+.color-DMB {
+    background:#151C37;
+    font-size: 18px;
+}
+
+.nav-fire
+{
+    height: 15px;
+     margin-left: 5px;
+}
+
+nav.navbar {
+    min-height: 79px;
+
+}
+
+#language {
+    position: absolute; 
+    right: -185px; 
+    color: white; 
+    background-color:#151C37;  
+}
+
+#my-content {
+    margin-top: 4px;
+    margin-left: 100px;
+    height: 35px;
+    width: 250px;
+    background-color: #151C37;
+    color:white;
+    border-radius: 5px;
+    background: url(../img/icons/search.png) no-repeat right;
+}
+
+li.nav-item {
+    margin-left: 57px;
+}
+
+button.btn-gradient{
+    background: linear-gradient(to right, #19d3e8, #af2cff);
+    font-family: "Gilroy-medium";
+}
+
+
+
+.navbar-brand {
+    margin-left: 65px;
+    background:#151C37;
+
+}
+
+.header-right
+{
+    margin-top: 2px;
+    position: absolute; 
+    right: 60px; 
+}
+
+div.card-body
+{
+    margin-left: 10px;
+}
+
+div.card-body-horizontal
+{
+    margin-left: 20px;
+}
+
+div.card 
+{
+    float: left;
+    border-radius: 20px;
+    border: 0px
+}
+
+img.card-img-top
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.game-name
+{
+    font-size: 20px;
+}
+.price{
+    color:#6E4AFF;
+    font-size: 22px;
+    margin: 0px;
+    padding-right: 0px;
+}
+
+.sale{
+    color: #d6d0f0;
+    font-size: 14px;
+    text-decoration: line-through;
+    white-space: nowrap;
+    align-self: flex-end;
+
+}
+
+.circle_left {
+    border-radius: 50px;
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    margin-right: 2%;
+    position: absolute;
+    left: 3.8%; 
+    margin-top: -125px;
+    background-image: url(../img/icons/left_arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.circle_right {
+    border-radius: 50px;
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    margin-top: -125px;
+    position: absolute; 
+    margin-left: 2%;
+    right: 3%;
+    background-image: url(../img/icons/right_arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+li {
+    list-style-type: none; 
+   }
+
+
+.smallrentangle {
+    border-radius: 7px;
+    background-color: #151C37;
+    border: 1.5px solid #8A8D9B;
+    float: left;
+    width: 38px;
+    height: 38px;
+    margin-left: 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div.header_img 
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* main */
+
+
+.rentangle {
+    border-radius: 25px;
+    background-color: #151C37;
+    width: auto;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative; 
+    color: white;
+    
+}
+
+div.rentangleup
+{
+    padding-left: 15px;
+}
+
+p.rentanglep
+{
+    position: absolute;
+    top: 40%;
+    left: 30%; 
+    margin: 0px; 
+    font-size:30px
+}
+
+img.card-img {
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    height: 350px; 
+    width: 395px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.rentangle2
+{
+    border-radius: 25px;
+    background-color: #151C37;
+    width: auto;
+    height: 440px; 
+    margin-bottom: 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.rentangle4
+{
+    border-radius: 25px;
+    background-color: #151C37;
+    width: auto;
+    height: 365px; 
+    background-repeat: no-repeat;
+    background-size: cover;    
+    margin-bottom: 50px;
+}
+
+div.rentanglecard
+{
+    margin-top: -5px;
+    font-family: "Gilroy-semibold";
+    border-radius: 5px;
+    background-color: #d6d0f0;
+    width: 70px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6E4Aff;
+    font-size: 14px;
+}
+
+p.card-text-horizontal
+{
+    color:#8A8D9B;
+    margin-top: 20px;
+    font-family:'Gilroy-semibold';
+    font-size: 16px;
+}
+
+.rentanglecard-horizontal
+{
+    margin-top: 5px;
+    margin-bottom: 25px;
+    font-family: "Gilroy-semibold";
+    border-radius: 5px;
+    background-color: #d6d0f0;
+    width: 70px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6E4Aff;
+    font-size: 14px;
+}
+
+.rentanglecardbig
+{
+    
+    color: white;
+    background-color: #151C37;
+    width: 69%;
+    height: 22px; 
+    margin-top: 6px;
+    margin-bottom: 14px;
+    font-family: "Gilroy-medium";
+}
+
+
+
+.rentanglecardbig2
+{
+    
+    color: white;
+    background-color: #151C37;
+    width: 100%;
+    height: 25px; 
+    font-family: "Gilroy-medium";
+
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+span.card-title
+{
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+}
+
+button.btn-news
+{
+    width: 150px;
+    height: 50px;
+}
+
+a > button.btn-game
+{
+    font-size: 14px; 
+    width: 60%; 
+    height: 50px; 
+    position: absolute; 
+    top: 30%; 
+    left: 20%;
+    display: none;
+}
+
+img.card-img-top:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    filter:brightness(50%);
+}
+
+img.card-img-top:hover +  a > button.btn-game {
+    
+    display: block;
+}
+
+a > button.btn-game:hover
+{
+    display:block;
+}
+
+
+
+div.rentanglecard-second
+    {
+        margin-left: 5px;
+    }
+
+div.fullcard
+{
+    padding-left: 20px;
+}
+
+p.game-battlefield-sm
+{
+    display: none;
+}
+
+div.second-pe
+{
+    display: none;
+}
+
+div.newnameblock
+{
+    margin-left: 7.1%; 
+    margin-right: 7%; 
+    max-width: 86.2%; 
+    margin-top: 7.5%; 
+    margin-bottom: 4%;
+}
+
+div.newblock
+{
+    margin-left: 7.1%; 
+    margin-right: 7%; 
+    max-width: 86.2%;
+}
+
+div.newnewsblock
+{
+    margin-left: 7.1%; 
+    margin-right: 7%; 
+    max-width: 86.2%; 
+    margin-bottom: 7.5%;
+}
+
+.circle
+{
+    border-radius: 50px;
+    width: 70px;
+    height: 70px;
+    margin-top: -30px;
+    margin-left: 85%;
+    background-color: #6E4AFF;
+    color:white;
+    display: flex;
+    position:absolute;
+    font-family: 'Gilroy-Semibold';
+}
+
+
+@media screen and (max-width: 1850px) and (min-width: 1669px){
+    #language {
+        right: -90px; 
+    }
+    div.first-pe
+    {
+        display: none;
+    }
+    div.second-pe
+    {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1800px){
+    
+    div.first-pe
+    {
+        display: none;
+    }
+    div.second-pe
+    {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 1740px)  and (min-width: 1400px){
+    #my-content {display: none;}
+    #language {
+        right: -90px; 
+    }
+    div.rentanglecard-second
+    {
+        margin-left: 20px;
+    }
+
+}
+
+@media screen and (max-width: 1650px){
+
+    p.sale{
+        display: none;
+    }
+    #fourth
+    {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1550px)  and (min-width: 1400px){
+    h4.game-battlefield
+    {
+       display: none; 
+    }
+    p.game-battlefield-sm
+    {
+        display:inline;
+        font-size: 20px;
+        font-family: "Gilroy-bold";
+    }
+    
+}
+
+@media screen and (max-width: 1400px){
+    div.card
+    {
+        margin-bottom: 30px;
+    }
+}
+    
+
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+    #my-content {display: none;}
+    
+    #language {
+        display: none;
+    }
+
+    #language {
+        color: white; 
+        background-color:#151C37; 
+        margin-left: 200px;
+    } 
+    #fourth{
+        display: none;
+    }
+    #third {
+        display:none
+    }
+    
+}
+@media screen and (max-width: 1199px) {
+    .header-right {
+        position:sticky;
+        top: 300px;
+        margin-left: -20px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+    }
+    #my-content {
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 0px;
+        left: 35px;
+        width: 200px;
+        
+    }
+    #language {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        position:sticky;
+        top: 300px;
+        margin-left: 0px;
+        border: 1px solid #8A8D9B;
+
+    }
+    .navbar-brand {
+        margin-left: 55px;
+    }
+    
+}
+@media screen and (max-width: 650px) {
+
+    #fourth
+    {
+        display: none;
+    }
+
+}
+@media  screen and (min-width: 577px) and (max-width: 1920px) {
+
+    .cartcard {
+        margin-top: 40px
+    }
+    
+}
+
+
+
+
+

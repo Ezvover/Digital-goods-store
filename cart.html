@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./fonts/Gilroy-Medium.ttf">
+    <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+    <script src="./bootstrap/bootstrap.js"></script>
+    <title>Cart</title>
+    <link rel="shortcut icon" href="./img/icon.png">    
+</head>
+<body style="background-color: rgb(242, 244, 254);">
+  <header>
+    <nav class="navbar navbar-expand-xl navbar-dark color-DMB">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="Full logo"></a>
+        <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#collapse_target">
+          <span class="navbar-toggler-icon text-right"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+          <ul class="navbar-nav" >
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="./catalog.html">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./error.html">Pre-orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " href="./error.html">Sale<img src="./img/icons/fire.png" class="nav-fire" alt="fire icon"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./error.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./error.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <form action="input" class="d-flex"  >
+                <input type="search" id="my-content" class="from-control" style="border-color: #8A8d9b;">
+              </form>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn dropdown-toggle " id="language" type="button" data-bs-toggle="dropdown" >
+                  Eng
+                </button>
+                <ul class="dropdown-menu " >
+                  <li><a class="dropdown-item" href="error.html" >Ru</a></li>
+                </ul>
+              </div>
+            </li>
+             <li class="nav-item">
+              <div class="header-right">
+                <a class="smallrentangle" href="./error.html" style="background-image: url(./img/icons/bell.png);"></a>
+                <a class="smallrentangle" href="./error.html" style="background-image: url(./img/icons/account.png); "></a>
+                <a class="smallrentangle" href="./error.html" style="background-image: url(./img/icons/favorite.png);"></a>
+                <a class="smallrentangle" href="./cart.html" style="background-image: url(./img/icons/cart.png);"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+  </header>
+<main>
+  <div class="container-fluid newnameblock" style="margin-top: 50px;">
+    <div class="row">
+    <p class="col-12 "><a href="./index.html" style="text-decoration: none; color: #8A8d9b">Home</a> - <a>Cart</b></a></p>
+    </div>
+    <div class="row d-none d-sm-block">
+    <h1 class="col-xl-6 col-1" style="font-size: 60px; margin-top: 70px;">YOUR CART</h1>
+  </div>
+  <div class="row d-block d-sm-none">
+    <h1 class="col-xl-6 col-1" style="font-size: 50px; margin-top: 70px;">YOUR CART</h1>
+  </div>
+  </div>
+      
+      <div class="container-fluid newblock" style="margin-bottom: 100px;">     
+        <div class="row" >
+            <div class="col-xl-6 mb-4 ">
+                <div class="bg-white" style="border-radius: 20px; ">
+                <div class="row">
+                    <div class="col-12 " >
+                        <div class="card" style="border: 0px; margin-left: 30px; margin-top: 30px; ">
+                            <div class="card-horizontal">
+                              <div class="img-square-wrapper">
+                                  <img class="d-none d-sm-block" src="./img/covers/fable_cart.png" alt="Card image cap" style="border-radius: 20px;">
+                                  <img class="d-block d-sm-none" src="./img/covers/fable_cart_sm.png" alt="Card image cap" style="border-radius: 20px; ">
+                              </div>    
+                              <div class="card-body cartcard" >
+                                  <h3 class="card-title">Fable</h3>
+                                  <h4 class="card-text price">30,00 <span class="cartbyn">BYN</span></h4>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-12" >
+                        <div class="card" style="border: 0px; margin-left: 30px; margin-top: 30px; margin-bottom: 30px;">
+                            <div class="card-horizontal">
+                              <div class="img-square-wrapper">
+                                  <img class="d-none d-sm-block"  src="./img/covers/xcom-cart.png" alt="Card image cap" style="border-radius: 20px; ">
+                                  <img class="d-block d-sm-none" id="cartimg" src="./img/covers/xcom-cart_sm.png" alt="Card image cap" style="border-radius: 20px; ">
+                              </div>
+                              <div class="card-body cartcard" >
+                                  <h3 class="card-title">XCOM</h3>
+                                  <h4 class="card-text price">30,00 <span class="cartbyn">BYN</span></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              </div>
+              <div class="col-xl-6 ">
+                <div class="bg-white text-center" style="border-radius: 20px; height: 490px;" >
+                  <div class="row d-flex justify-content-center align-items-center">
+                        <div class="card-body p-5 text-center">
+                            <h1 class="mt-1" style="margin-bottom: 7%;">Place your order</h1>
+                            <div class="form-outline form-white mb-4">
+                              <input type="email" id="typeEmailX" placeholder="E-mail" class="form-control form-control-lg" style="width: 70%; margin-left: 15%; border: 0px; background-color: lightgray;"/>
+                            </div>
+                            
+                            <div class="form-outline form-white mb-5">
+                              <input type="password" id="typePasswordX" placeholder="Password" class="form-control form-control-lg" style="width: 70%; margin-left: 15%; border: 0px; background-color: lightgray;" />
+                            </div>
+                            <div class="col d-flex justify-content-center">
+                              <div class="form-check d-none d-sm-block" >
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31"  checked />
+                                <label class="form-check-label" for="form2Example31" style="font-family: 'Gilroy-Medium'" >Card</label>
+                              </div>
+                              <div class="form-check d-none d-sm-block" >
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" style="margin-left: 25px"/>
+                                <label class="form-check-label" for="form2Example31" style="font-family: 'Gilroy-Medium'">PayPal</label>
+                              </div>
+                              <div class="form-check d-none d-sm-block" >
+                                <input class="form-check-input" type="checkbox" value="" id="form2Example31" style="margin-left: 25px" />
+                                <label class="form-check-label" for="form2Example31" >ERIP</label>
+                              </div>
+                            </div>
+                              <ul class="d-block d-sm-none justify-content-center">
+                                <li>
+                                  <div class="form-check " >
+                                    <input class="form-check-input" type="checkbox" value="" id="form2Example31"  checked />
+                                    <label class="form-check-label" for="form2Example31" >Card</label>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="form-check " >
+                                    <input class="form-check-input" type="checkbox" value="" id="form2Example31"/>
+                                    <label class="form-check-label" for="form2Example31">PayPal</label>
+                                  </div>
+                                </li>
+                                <li>
+                                  <div class="form-check " >
+                                    <input class="form-check-input" type="checkbox" value="" id="form2Example31"/>
+                                    <label class="form-check-label" for="form2Example31">ERIP</label>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                            <button class="btn btn-gradient btn-lg mt-2 text-white d-none d-sm-block" type="submit" style="width: 60%;">Go to the payment</button>
+                            <button class="btn btn-gradient btn-lg mt-2 text-white d-block d-sm-none" type="submit" style="width: 60%; font-size: 14px;">Go to the payment</button>             
+                          </div>
+              
+              
+                        </div>
+                    </div>
+              </div>
+              </div>
+              <div class="row">
+                <div class="col-6 d-none d-xl-block" style="text-align: right; ">
+                  <h4 style="margin-right: 10px; margin-top: -9%;">TOTAL: <span style="color: #6E4AFF; font-size: 24px;">60,00 BYN</span></h4>
+                </div>
+                <div class="col-6"></div>
+
+              </div>
+        </div>
+    </div>
+</main>
+<footer class="d-block d-sm-none">
+  <div class="container-fluid color-DMB" style="max-width: 100%; padding-bottom: 40px;">
+    <div class="row text-center" >
+      <div class="col-xl-2  col-md-4 col-sm-6 ">
+        <img src="./img/logo.png" alt="logo_footer" style="margin-top: 100px; margin-left: 30px;">
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+        <ul>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">About service</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Payment</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5 ">
+        <ul>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Terms of sale</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Warranty conditions</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Contacts</a></li>
+          </ul>
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+        <ul>
+        <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">Privacy policy</a></li>
+        <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">User agreement</a></li>
+        <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">Legal information</a></li>
+          </ul>
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+        <ul>
+          <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">News</a></li>
+          <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">Terms of cooperation</a></li>
+          <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">Be part of our team</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+        <ul>
+                <li><a class="nav-item nav-link text-white" style="margin-bottom: 15px;" href="mailto:email@gmail.com">Email@gmail.com</a></li>
+                <li><a class="smallrentangle d-none d-sm-block" id="first" href="#" style="float: left; background-image: url(./img/icons/G.png);" ></a></li>
+                <li><a class="smallrentangle d-none d-sm-block" id="second" href="#" style="float: left; background-image: url(./img/icons/f.png); "></a></li>
+                <li><a class="smallrentangle d-none d-sm-block" id="third" href="#" style="float: left; background-image: url(./img/icons/t.png);"></a></li>
+                <li><a class="smallrentangle d-none d-sm-block" id="fourth" href="#" style="float: left; background-image: url(./img/icons/vk.png);"></a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+ </footer>
+ <footer class="d-none d-sm-block">
+  <div class="container-fluid color-DMB" style="max-width: 100%; padding-bottom: 40px;">
+    <div class="row text-center" >
+      <div class="col-xl-2  col-md-4 col-sm-6 ">
+        <img src="./img/logo.png" alt="logo_footer" style="margin-top: 100px;">
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+        <ul style=" text-align: left;">
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">About service</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Payment</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5 ">
+        <ul style="text-align: left;">
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Terms of sale</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Warranty conditions</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Contacts</a></li>
+          </ul>
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+        <ul style="text-align: left;">
+        <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Privacy policy</a></li>
+        <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">User agreement</a></li>
+        <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Legal information</a></li>
+          </ul>
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+        <ul style="text-align: left;">
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">News</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Terms of cooperation</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Be part of our team</a></li>
+        </ul>
+      </div>
+      <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+        <ul style="text-align: left;">
+                <li><a class="nav-item nav-link text-white" style="margin-bottom: 15px; " href="mailto:email@gmail.com">Email@gmail.com</a></li>
+                <li><a class="smallrentangle" id="first" href="./error.html" style="float: left; background-image: url(./img/icons/G.png); margin-left: 0px;" ></a></li>
+                <li><a class="smallrentangle" id="second" href="./error.html" style="float: left; background-image: url(./img/icons/f.png); "></a></li>
+                <li><a class="smallrentangle" id="third" href="./error.html" style="float: left; background-image: url(./img/icons/t.png);"></a></li>
+                <li><a class="smallrentangle" id="fourth" href="./error.html" style="float: left; background-image: url(./img/icons/vk.png);"></a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+ </footer>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>

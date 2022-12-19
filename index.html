@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width">
+  <link rel="stylesheet" href="./css/index.css">
+  <link rel="stylesheet" href="./bootstrap/bootstrap.css">
+  <script src="./bootstrap/bootstrap.js"></script>
+  <title>EZKeys</title>
+<link rel="shortcut icon" href="./img/icon.png">    
+</head>
+<body style="background-color: rgb(242, 244, 254);">
+  <header>
+    <nav class="navbar navbar-expand-xl navbar-dark color-DMB">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="Full logo"></a>
+        <button class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#collapse_target">
+          <span class="navbar-toggler-icon text-right"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapse_target">
+          <ul class="navbar-nav" >
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="./catalog.html">Catalog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./error.html">Pre-orders</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white " href="./error.html">Sale<img src="./img/icons/fire.png" class="nav-fire" alt="fire icon"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./error.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./error.html">About us</a>
+            </li>
+            <li class="nav-item">
+              <form action="input" class="d-flex"  >
+                <input type="search" id="my-content" class="from-control" style="border-color: #8A8d9b;">
+              </form>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button class="btn dropdown-toggle " id="language" type="button" data-bs-toggle="dropdown" >
+                  <span style="font-family: 'Gilroy-bold';">Eng</span>
+                </button>
+                <ul class="dropdown-menu " >
+                  <li><a class="dropdown-item" href="error.html" >Ru</a></li>
+                </ul>
+              </div>
+            </li>
+             <li class="nav-item">
+              <div class="header-right">
+                <a class="smallrentangle" href="./error.html" style="background-image: url(./img/icons/bell.png);"></a>
+                <a class="smallrentangle" href="./error.html" style="background-image: url(./img/icons/account.png); "></a>
+                <a class="smallrentangle" href="./error.html" style="background-image: url(./img/icons/favorite.png);"></a>
+                <a class="smallrentangle" href="./cart.html" style="background-image: url(./img/icons/cart.png);"></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+  </header>
+   <main>
+    <div class="header_img" style="background-image: url(./img/covers/banner.png);">
+    <div class="row" style="margin-left: 8%; margin-right: 8%; max-width: 84%; padding-top: 5%; padding-bottom: 10%;">
+        <div class="col-xxl-4 col-lg-6 d-none d-md-block" style=" color: white; margin-left:6.5%;">
+          <h1  style="padding-bottom: 15px; font-size: 80px;">SALE OF <br> THE YEAR!</h1>
+          <p class="d-none d-md-block" style="font-size:16px; padding-bottom: 15px; ">Have time to buy you favorite games at competitive prices!</p>
+          <button type="submit" class="btn btn-gradient text-white d-none d-lg-block" style="font-size: 14px; width: 150px; height: 50px;"><span>More details</span></button>
+        </div>  
+    </div>
+    <div class="container-fluid d-block d-md-none text-white" style="background-color: #151c37; max-height: 40%; margin-top: 200px; margin-bottom: 100px;">
+      <div class="row" style="margin-left: 8%; margin-right: 9%; max-width: 92%; padding-top: 3%; padding-bottom: 10%;">
+        <div class="col-12">
+          <h1 style="padding-bottom: 10px; font-size: 28px;">SALE OF THE YEAR!</h1>
+          <p class="" style="font-size:14px; padding-bottom: 10px; ">Have time to buy you favorite games at competitive prices!</p>
+          <button type="submit" class="btn btn-gradient text-white d-block d-lg-none" style="font-size: 14px; width: 150px; height: 50px; align-items: flex-end; display: flex;"><span>More details</span></button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="container-fluid newblock">
+      <div class="row " style=" margin-top: -100px; ">
+        <div class="col-xxl-3 col-lg-4 col-md-6" >
+          <div class="rentangle d-none d-md-block " style="background-image: url('./img/covers/rde_up.png'); ">
+            <p class="rentanglep">Free Update!</p>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-lg-4 col-md-6 d-none d-md-block rentangleup">
+          <div class="rentangle" style="background-image: url('./img/covers/f1_manager.png')  ;">
+            <p class="rentanglep">Discounts</p>
+          </div>
+        </div>
+        <div class="col-xxl-3 col-lg-4 d-none d-lg-block rentangleup">
+          <div class="rentangle" style="background-image: url('./img/covers/mafia_up.png')  ;">
+            <p class="rentanglep">Play4Free</p>
+          </div>
+        </div>
+        <div class="col-xxl-3 d-none d-xxl-block rentangleup">
+        <div class="rentangle" style="background-image: url('./img/covers/spider_up.png'); ">
+          <p class="rentanglep">Discounts</p>
+        </div>
+        </div>
+      </div>
+    </div>
+    <div class="circle_left d-none d-lg-block "></div>
+    <div class="circle_right d-none d-lg-block "></div> 
+    <div class="container-fluid newnameblock d-none d-sm-block">
+        <div class="row ">
+        <h1 class="col-6" style="font-size: 60px;">POPULAR</h1>
+        <a class="col-6 d-none d-sm-block" href="./error.html"><h5  style="text-align: right; color: #8A8d9b; float: inline-end; ">See all</h5></a>
+      </div>
+      </div>
+      <div class="container-fluid newnameblock d-block d-sm-none">
+        <div class="row ">
+        <h1 class="col-6" style="font-size: 48px;">POPULAR</h1>
+        <a class="col-6 d-none d-sm-block" href="./error.html"><h6  style="text-align: right; color: #8A8d9b; float: inline-end;">See all</h6></a>
+        </div>
+      </div>
+      <div class="container-fluid newblock">
+        <div class="row" >
+          <div class="col-xxl-2 col-md-4 col-sm-6">
+          <div class="card" >
+            <img class="card-img-top"   src="./img/covers/minecraft_2.png" alt="Minecraft_cover">
+              <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+            <div class="rentanglecardbig2 text-center"><span>STANDART EDITION</span></div>
+              <div class="card-body">
+              <h4 class="card-title game-name">Minecraft</h4>
+              <p class="card-text">
+                <div class="rentanglecard text-center">Arcade</div>
+              </p>
+              <h4 class="card-text price">13,44 BYN</h4>
+              </div>
+          </div>
+          </div>
+          <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+            <div class="card" >
+              <img class="card-img-top"  src="./img/covers/nfs_shift.png" alt="NFS_cover">
+              <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+              <div class="rentanglecardbig2 text-center"><span>STANDART EDITION</span></div>
+              <div class="card-body">
+                <h4 class="card-title game-name">NFS: Shift</h4>
+              <p class="card-text">
+                <div class="row" >
+                  <div class="col-4">
+                    <div class="rentanglecard">Arcade</div>
+                  </div>
+                  <div class="col-4">
+                    <div class="rentanglecard rentanglecard-second">Racing</div>
+                  </div>
+                </div>
+              </p>
+              <h4 class="card-text price">54,33 BYN</h4>
+                </div>
+            </div>
+            </div>
+            <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+              <div class="card" >
+                <img class="card-img-top"  src="./img/covers/battlefield_2042.png" alt="battlefield_cover">
+                <a href="./product.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+                <div class="rentanglecardbig2 text-center"><span>STANDART EDITION</span></div>
+                <div class="card-body">
+                    <h4 class="card-title game-name game-battlefield">Battlefield 2042</h4>
+                    <p class="card-title game-name game-battlefield-sm">Battlefield...</p>
+                    <p class="card-text">
+                      <div class="row" >
+                        <div class="col-4">
+                          <div class="rentanglecard">Arcade</div>
+                        </div>
+                        <div class="col-4">
+                          <div class="rentanglecard rentanglecard-second">Action</div>
+                        </div>
+                      </div>
+                    </p>
+                    <h4 class="card-text price">31,11 BYN</h4>
+                  </div>
+              </div>
+              </div>
+              <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+                <div class="card" >
+                  <img class="card-img-top" src="./img/covers/dl_2.png" alt="dl2__cover">
+                  <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+                  <div class="rentanglecardbig2 text-center"><span>STANDART EDITION</span></div>
+                  <div class="card-body">
+                      <h4 class="card-title game-name">Dying Light 2</h4>
+                      <p class="card-text">
+                        <div class="rentanglecard">Action</div>
+                      </p>
+                      <h4 class="card-text price">66,53 BYN</h4>
+                    </div>
+                </div>
+                </div>
+                <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+                  <div class="card">
+                    <img class="card-img-top"  src="./img/covers/f122_se.png" alt="f1se_cover">
+                    <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+                    <div class="rentanglecardbig2 text-center"><span>STANDART EDITION</span></div>
+                    <div class="card-body">
+                        <h4 class="card-title game-name">F1 22</h4>
+                        <p class="card-text">
+                          <div class="row" >
+                            <div class="col-4">
+                              <div class="rentanglecard">Arcade</div>
+                            </div>
+                            <div class="col-4">
+                              <div class="rentanglecard rentanglecard-second">Racing</div>
+                            </div>
+                          </div>
+                        </p>
+                        <h4 class="card-text price">76,90 BYN</h4>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+                    <div class="card" >
+                      <img class="card-img-top"  src="./img/covers/f122_ce.png" alt="f1ce_cover">
+                      <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+                      <div class="rentanglecardbig2 text-center"><span>CHAMPIONS EDITION</span></div>
+                      <div class="card-body">
+                          <h4 class="card-title game-name">F1 22</h4>
+                          <p class="card-text">
+                            <div class="row" >
+                              <div class="col-4">
+                                <div class="rentanglecard">Arcade</div>
+                              </div>
+                              <div class="col-4">
+                                <div class="rentanglecard rentanglecard-second">Racing</div>
+                              </div>
+                            </div>
+                          </p>
+                        <h4 class="card-text price">99,99 BYN</h4>
+                      </div>
+                  </div>
+              </div>
+        </div>
+      </div>
+      <button class="circle_left d-none d-lg-block"  style="margin-top: -270px;"></button>
+      <button class="circle_right d-none d-lg-block" style="margin-top: -270px;"></button>
+      <div class="container-fluid newnameblock d-none d-sm-block">
+        <div class="row">
+        <h1 class="col-6" style="font-size: 60px;">PRE-ORDERS</h1>
+        <a class="col-6 d-none d-sm-block" href="./error.html"><h6  style="text-align: right; color: #8A8d9b ">See all</h6></a>
+      </div>
+      </div>
+      <div class="container-fluid newnameblock d-block d-sm-none">
+        <div class="row">
+        <h1 class="col-6" style="font-size: 50px;">PRE-ORDERS</h1>
+        <a class="col-6 d-none d-sm-block" href="./error.html"><h6  style="text-align: right; color: #8A8d9b ">See all</h6></a>
+      </div>
+      </div>
+      <div class="container-fluid newblock first-pe">      
+        <div class="row">
+        <div class="col-md-6 ">
+          <div class="card" style="border-radius: 20px;">
+            <div class="card-horizontal">
+                <div class="img-square-wrapper ">
+                    <img class="card-img" src="./img/covers/gta_6.png" alt="gta6_cover" >
+                </div>
+                <div class="card-body card-body-horizontal">
+                  <span class="card-title">Grand Theft Auto VI</span>
+                  <div class="rentanglecardbig text-center">STANDART EDITION</div>
+                    <p class="card-text card-text-horizontal" >The player take the role of a Hunter, tasked with slaying or capturing large monsters using a varienty of weapons, tools and environmental features.</p>
+                    <p class="card-text card-text-date">Sale date: Junuary 12, 2023<img src="./img/icons/windows.png" alt="windows"></p>
+                    <div class="rentanglecard-horizontal text-center">Arcade</div>
+                    <h4 class="card-text price">30,00 BYN</h4>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-6 ">
+          <div class="card" style="border-radius: 20px;">
+            <div class="card-horizontal">
+              <div class="img-square-wrapper ">
+                  <img class="card-img" src="./img/covers/dota3.png" alt="dota3_cover" >
+              </div>
+              <div class="card-body card-body-horizontal">
+                  <span class="card-title">DOTA 3</span>
+                  <div class="rentanglecardbig text-center">STANDART EDITION</div>
+                  <p class="card-text card-text-horizontal" >Horror video game, featuring a zombie apocalyptic-themed open world. The game is mostly melee-based with the majority of fighting using melee weapons.</p>
+                  <p class="card-text card-text-date">Sale date: February 31, 2023<img src="./img/icons/windows.png" alt="windows"></p>
+                  <div class="rentanglecard-horizontal text-center">Arcade</div>
+                  <h4 class="card-text price">30,00 BYN</h4>
+                </div>
+          </div>
+        </div>
+        </div>
+      </div>
+      </div>
+    <div class="container-fluid newblock second-pe">      
+        <div class="row">
+          <div class="col-sm-6 ">
+            <div class="card" >
+              <img class="card-img-top"  src="./img/covers/gta_6.png" alt="gta6_cover">
+                <div class="card-body card-body-horizontal">
+                  <span class="card-title">Grand Theft Auto VI</span>
+                  <div class="rentanglecardbig text-center">STANDART EDITION</div>
+                    <p class="card-text card-text-horizontal" >The player take the role of a Hunter, tasked with slaying or capturing large monsters using a varienty of weapons, tools and environmental features.</p>
+                    <p class="card-text card-text-date">Sale date: February 31, 2023<img src="./img/icons/windows.png" alt="windows"></p>
+                    <div class="rentanglecard-horizontal">Arcade</div>
+                    <h4 class="card-text price">98,00 BYN</h4>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-6 ">
+              <div class="card" >
+                <img class="card-img-top"  src="./img/covers/dota3_full.png" alt="dota3_cover">
+                <div class="card-body card-body-horizontal">
+                  <span class="card-title">DOTA 3</span>
+                  <div class="rentanglecardbig text-center">STANDART EDITION</div>
+                  <p class="card-text card-text-horizontal" >Horror video game, featuring a zombie apocalyptic-themed open world. The game is mostly melee-based with the majority of fighting using melee weapons.</p>
+                  <p class="card-text card-text-date">Sale date: Junuary 12, 2022<img src="./img/icons/windows.png" alt="windows"></p>
+                  <div class="rentanglecard-horizontal">Arcade</div>
+                  <h4 class="card-text price">60,00 BYN</h4>
+                </div>
+            </div>
+        </div>
+        </div>
+      </div>
+      <div class="circle_left d-none d-lg-block" style="margin-top: -190px;"></div>
+      <div class="circle_right d-none d-lg-block" style="margin-top: -190px;"></div>
+
+      <div class="container-fluid newnameblock d-none d-sm-block">
+        <div class="row">
+        <h1 class="col-6" style="font-size: 60px;">SALE</h1>
+        <a class="col-6 d-none d-sm-block" href="./error.html"><h6  style="text-align: right; color: #8A8d9b;">See all</h6></a>
+      </div>
+      </div>
+      <div class="container-fluid newnameblock d-block d-sm-none">
+        <div class="row">
+        <h1 class="col-6" style="font-size: 50px;">SALE</h1>
+        <a class="col-6 d-none d-sm-block" href="./error.html"><h6  style="text-align: right; color: #8A8d9b;">See all</h6></a>
+      </div>
+      </div>
+      <div class="container-fluid newblock">
+        <div class="row">
+          <div class="col-xxl-2 col-md-4 col-sm-6">
+            <div class="card" >
+              <img class="card-img-top"  src="./img/covers/cover_2077.png" alt="Cyberpunk2077_cover">
+              <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+              <div class="circle"><span style="margin-left: 20px; margin-top: 20px;">25%<span></span></div>
+              <div class="rentanglecardbig2 text-center">STANDART EDITION</div>
+              <div class="card-body">
+                <h4 class="card-title game-name game-battlefield">Cyberpunk 2077</h4>
+                <p class="card-title game-name game-battlefield-sm">Cyberpunk...</p>
+                  <p class="card-text">
+                    <div class="row" >
+                      <div class="col-4">
+                        <div class="rentanglecard">Action</div>
+                      </div>
+                      <div class="col-4">
+                        <div class="rentanglecard rentanglecard-second">Arcade</div>
+                      </div>
+                    </div>
+                  </p>
+                  <div class="row">
+                  <h4 class="card-text col-7 price">33,33 BYN</h4>
+                  <p class="card-text col-5 sale">48,00 BYN</p>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+              <div class="card" >
+                <img class="card-img-top"  src="./img/covers/timeflow.png" alt="timeflow_cover">
+                <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+              <div class="circle"><span style="margin-left: 20px; margin-top: 20px;">13%<span></span></div>
+                <div class="rentanglecardbig2 text-center">STANDART EDITION</div>
+                <div class="card-body">
+                    <h4 class="card-title game-name">Timeflow</h4>
+                    <p class="card-text">
+                          <div class="rentanglecard text-center">Arcade</div>
+                    </p>
+                    <div class="row">
+                      <h4 class="card-text col-7 price">13,53 BYN</h4>
+                      <p class="card-text col-5 sale">23,53 BYN</p>
+                    </div>
+                  </div>
+              </div>
+              </div>
+              <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+                <div class="card" >
+                  <img class="card-img-top"  src="./img/covers/devlife.png" alt="devlife_cover">
+                  <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+                  <div class="circle"><span style="margin-left: 20px; margin-top: 20px;">35%<span></span></div>
+                  <div class="rentanglecardbig2 text-center">STANDART EDITION</div>
+                  <div class="card-body">
+                      <h4 class="card-title game-name">DevLife</h4>
+                      <p class="card-text">
+                            <div class="rentanglecard text-center">Arcade</div>
+                      </p>
+                      <div class="row">
+                        <h4 class="card-text col-7 price">15,54 BYN</h4>
+                        <p class="card-text col-5 sale">25,00 BYN</p>
+                      </div>
+                    </div>
+                </div>
+                </div>
+                <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+                  <div class="card" >
+                    <img class="card-img-top"  src="./img/covers/outriders.png" alt="outriders_cover">
+                    <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+                    <div class="circle"><span style="margin-left: 20px; margin-top: 20px;">39%<span></span></div>
+                    <div class="rentanglecardbig2 text-center">STANDART EDITION</div>
+                    <div class="card-body">
+                        <h4 class="card-title game-name">Outriders</h4>
+                        <p class="card-text">
+                              <div class="rentanglecard text-center">Action</div>
+                        </p>
+                        <div class="row">
+                          <h4 class="card-text col-7 price">30,43 BYN</h4>
+                          <p class="card-text col-5 sale">54,00 BYN</p>
+                        </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+                    <div class="card" >
+                      <img class="card-img-top"  src="./img/covers/hoi4.png" alt="hoi4_cover">
+                      <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+                      <div class="circle"><span style="margin-left: 20px; margin-top: 20px;">23%<span></span></div>
+                      <div class="rentanglecardbig2 text-center"><span>CADET EDITION</span></div>
+                      <div class="card-body">
+                          <h4 class="card-title game-name">HoI4</h4>
+                          <p class="card-text">
+                                <div class="rentanglecard text-center">Action</div>
+                          </p>
+                          <div class="row">
+                            <h4 class="card-text col-7 price">35,89 BYN</h4>
+                            <p class="card-text col-5 sale">40,00 BYN</p>
+                          </div>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-xxl-2 col-md-4 col-sm-6 fullcard">
+                      <div class="card" >
+                        <img class="card-img-top"  src="./img/covers/uno.png" alt="uno_cover">
+                        <a href="./error.html"><button type="submit" class="btn btn-gradient btn-game text-white">More details</button></a>
+                        <div class="circle"><span style="margin-left: 20px; margin-top: 20px;">48%<span></span></div>
+                        <div class="rentanglecardbig2 text-center"><span>STANDART EDITION</span></div>
+                        <div class="card-body">
+                            <h4 class="card-title game-name">UNO</h4>
+                            <p class="card-text">
+                                  <div class="rentanglecard text-center">Arcade</div>
+                            </p>
+                            <div class="row">
+                              <h4 class="card-text col-7 price">15,54 BYN</h4>
+                              <p class="card-text col-5 sale">30,00 BYN</p>
+                            </div>
+                          </div>
+                      </div>
+                      </div>
+        </div>
+      </div>
+      <div class="circle_left d-none d-lg-block" style="margin-top: -300px;"></div>
+      <div class="circle_right d-none d-lg-block" style="margin-top: -300px;"></div>
+      
+      <div class="container-fluid newnameblock d-none d-sm-block">
+        <div class="row " >
+        <h1 class="col-6" style="font-size: 60px;">HOT NEWS</h1>
+        <a class="col-6 d-none d-sm-block" href="./error.html"><h5  style="text-align: right; color: #8A8d9b; float: inline-end; ">See all</h5></a>
+      </div>
+      </div>
+      <div class="container-fluid newnameblock d-block d-sm-none">
+        <div class="row " >
+        <h1 class="col-6" style="font-size: 50px;">HOT NEWS</h1>
+        <a class="col-6 d-none d-sm-block" href="./error.html"><h5  style="text-align: right; color: #8A8d9b; float: inline-end; ">See all</h5></a>
+      </div>
+      </div>
+
+
+
+    <div class="container-fluid newnewsblock">
+        <div class="row" >
+          <div class="col-xl-5">
+            <div class="rentangle2" style="background-image: url('./img/covers/jonny_xl.png')  ;">
+            <div class="container text-white d-none d-xl-block" style="max-width: 100%;">
+              <h1 style="padding-top: 42%; margin-left: 4%; margin-right: 25%; font-size: 30px; font-size: 30px;">CYBERPUNK 2077`S NEXT UPDATE</h1>
+              <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 4%; margin-top: 10px;">More details</button>
+            </div>
+            <div class="container text-white d-block d-xl-none" style="max-width: 100%;">
+              <h1 style="padding-top: 30%; margin-left: 4%; margin-right: 25%; font-size: 30px; font-size: 30px;">CYBERPUNK 2077`S NEXT UPDATE</h1>
+              <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 4%; margin-top: 10px;">More details</button>
+            </div>
+            </div>
+            </div>
+            <div class="col-xl-7" style="padding-left: 20px;">
+            <div class="rentangle2" style="background-image: url('./img/covers/ds3_xl.png')  ;">
+            <div class="container text-white d-none d-xl-block" style="max-width: 100%;">
+              <h1 style="padding-top: 30%; margin-left: 2%; margin-right: 25%; font-size: 30px; font-size: 30px;">DARK SOULS NAMED "THE BEST GAME OF ALL TIME"</h1>
+              <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 2%; margin-top: 10px;">More details</button>
+            </div>
+            <div class="container text-white d-block d-xl-none" style="max-width: 100%;">
+              <h1 style="padding-top: 26%; margin-left: 4%; margin-right: 25%; font-size: 30px; font-size: 30px;">DARK SOULS NAMED "THE BEST GAME OF ALL TIME"</h1>
+              <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 4%; margin-top: 10px;">More details</button>
+            </div>
+            </div>
+            </div>
+          </div>
+        <div class="row "   >
+          <div class="col-xl-4">
+            <div class="rentangle4 " style="background-image: url('./img/covers/sims4_xl.png')  ;">
+              <div class="container text-white d-none d-xl-block" style="max-width: 100%;">
+                <h1 style="padding-top: 39%; margin-left: 4%; margin-right: 5%; font-size: 30px; font-size: 30px;">SIMS 4 NAMED "GOTY"</h1>
+                <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 4%; margin-top: 10px;">More details</button>
+              </div>
+              <div class="container text-white d-block d-xl-none" style="max-width: 100%;">
+                <h1 style="padding-top: 24%; margin-left: 4%; margin-right: 5%; font-size: 30px; font-size: 30px;">SIMS 4 NAMED "GOTY"</h1>
+                <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 4%; margin-top: 10px;">More details</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4" style="padding-left: 20px;">
+            <div class="rentangle4" style="background-image: url('./img/covers/f1_manager_xl.png')  ;">
+              <div class="container text-white d-none d-xl-block" style="max-width: 100%;">
+                <h1 style="padding-top: 39%; margin-left: 4%; margin-right: 5%; font-size: 30px; font-size: 30px;">F1 BIG UPDATE</h1>
+                <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 4%; margin-top: 10px;">More details</button>
+              </div>
+              <div class="container text-white d-block d-xl-none" style="max-width: 100%;">
+                <h1 style="padding-top: 24%; margin-left: 4%; margin-right: 5%; font-size: 30px; font-size: 30px;">F1 BIG UPDATE</h1>
+                <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 4%; margin-top: 10px;">More details</button>
+              </div>
+          
+          </div>
+        </div>
+          <div class="col-xl-4" style="padding-left: 20px;">
+            <div class="rentangle4" style="background-image: url('./img/covers/valorant_xl.png')  ;">
+              <div class="container text-white d-none d-xl-block" style="max-width: 100%;">
+                <h1 style="padding-top: 39%; margin-left: 4%; margin-right: 5%; font-size: 30px; font-size: 30px;">HARBOR REALISED</h1>
+                <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 4%; margin-top: 10px;">More details</button>
+              </div>
+              <div class="container text-white d-block d-xl-none" style="max-width: 100%;">
+                <h1 style="padding-top: 24%; margin-left: 4%; margin-right: 5%; font-size: 30px; font-size: 30px;">HARBOR REALISED</h1>
+                <button type="button" class="text-white btn btn-gradient btn-lg btn-news" style="font-size: 14px;  margin-left: 4%; margin-top: 10px;">More details</button>
+              </div>
+        </div>
+        </div>
+        </div>
+      </div>
+
+      <div class="header_img d-none d-xxl-block" style="background-image: url(./img/covers/banner.png);">
+      <div class="row" style="margin-left: 7.1%; margin-right: 2%; max-width: 88.2%; padding-top: 8%; padding-bottom: 8%;">
+        <div class="col-4"></div>
+        <div class="col-4"></div>
+        <div class="col-4" style=" color: white; padding-left: 20px;">
+          <h1 style="padding-bottom: 20px; font-size: 60px; ">SUBSCRIBE</h1>
+          <p style="font-size: 18px; padding-bottom: 35px;">Subscribe to out new newsletter and keep up to date with the latest events of the gaming world and our promotions!</p>
+          <form class="form-inline" style=" display: flex; flex-flow: row wrap; ">
+            <div class="form-group col-10" style="display:inline; ">
+              <input type="text" class="form-control" id="inputPassword2" placeholder="Email" style="width: 365px; height: 45px;">
+            </div>
+            <button type="submit" class="btn btn-gradient text-white col-2" style="margin-left: -15%; font-size: 14px; width: 120px; height: 45px;">Send</button>
+          </form>
+        </div>
+    </div>
+    </div> 
+   </main>
+
+
+   <footer class="d-block d-sm-none">
+    <div class="container-fluid color-DMB" style="max-width: 100%; padding-bottom: 40px;">
+      <div class="row text-center" >
+        <div class="col-xl-2  col-md-4 col-sm-6 ">
+          <img src="./img/logo.png" alt="logo_footer" style="margin-top: 100px; margin-left: 30px;">
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+          <ul>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">About service</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Payment</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5 ">
+          <ul>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Terms of sale</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Warranty conditions</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+          <ul>
+          <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">Privacy policy</a></li>
+          <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">User agreement</a></li>
+          <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">Legal information</a></li>
+            </ul>
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+          <ul>
+            <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">News</a></li>
+            <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">Terms of cooperation</a></li>
+            <li><a class="nav-item nav-link" href="#" style="color: white; margin-bottom: 15px;">Be part of our team</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+          <ul>
+                  <li><a class="nav-item nav-link text-white" style="margin-bottom: 15px;" href="mailto:email@gmail.com">Email@gmail.com</a></li>
+                  <li><a class="smallrentangle d-none d-sm-block" id="first" href="#" style="float: left; background-image: url(./img/icons/G.png);" ></a></li>
+                  <li><a class="smallrentangle d-none d-sm-block" id="second" href="#" style="float: left; background-image: url(./img/icons/f.png); "></a></li>
+                  <li><a class="smallrentangle d-none d-sm-block" id="third" href="#" style="float: left; background-image: url(./img/icons/t.png);"></a></li>
+                  <li><a class="smallrentangle d-none d-sm-block" id="fourth" href="#" style="float: left; background-image: url(./img/icons/vk.png);"></a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+   </footer>
+
+   <footer class="d-none d-sm-block">
+    <div class="container-fluid color-DMB" style="max-width: 100%; padding-bottom: 40px;">
+      <div class="row text-center" >
+        <div class="col-xl-2  col-md-4 col-sm-6 ">
+          <img src="./img/logo.png" alt="logo_footer" style="margin-top: 100px;">
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+          <ul style=" text-align: left;">
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">About service</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Payment</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">FAQ</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5 ">
+          <ul style="text-align: left;">
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Terms of sale</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Warranty conditions</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+          <ul style="text-align: left;">
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Privacy policy</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">User agreement</a></li>
+          <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Legal information</a></li>
+            </ul>
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+          <ul style="text-align: left;">
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">News</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Terms of cooperation</a></li>
+            <li><a class="nav-item nav-link" href="./error.html" style="color: white; margin-bottom: 15px;">Be part of our team</a></li>
+          </ul>
+        </div>
+        <div class="col-xl-2  col-md-4 col-sm-6 mt-5">
+          <ul style="text-align: left;">
+                  <li><a class="nav-item nav-link text-white" style="margin-bottom: 15px; " href="mailto:email@gmail.com">Email@gmail.com</a></li>
+                  <li><a class="smallrentangle" id="first" href="./error.html" style="float: left; background-image: url(./img/icons/G.png); margin-left: 0px;" ></a></li>
+                  <li><a class="smallrentangle" id="second" href="./error.html" style="float: left; background-image: url(./img/icons/f.png); "></a></li>
+                  <li><a class="smallrentangle" id="third" href="./error.html" style="float: left; background-image: url(./img/icons/t.png);"></a></li>
+                  <li><a class="smallrentangle" id="fourth" href="./error.html" style="float: left; background-image: url(./img/icons/vk.png);"></a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+   </footer>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,458 @@
+
+@font-face {
+    font-family: "Gilroy-bold";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Gilroy-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-semibold";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Gilroy-Semibold.ttf);
+}
+
+@font-face {
+    font-family: "Gilroy-medium";
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Gilroy-Medium.ttf);
+}
+
+h1
+{
+    font-family: "Gilroy-bold";
+}
+
+h3{
+    font-family: "Gilroy-bold";
+}
+
+h4{
+    font-family: "Gilroy-bold";
+}
+
+p{
+    font-family: "Gilroy-bold";
+}
+
+a
+{
+    font-family: "Gilroy-bold";
+}
+
+p{
+    font-family: "Gilroy-semibold";
+}
+
+.color-DMB {
+    background:#151C37;
+    font-size: 18px;
+}
+
+.nav-fire
+{
+    height: 15px;
+     margin-left: 5px;
+}
+
+nav.navbar {
+    min-height: 79px;
+
+}
+
+#language {
+    position: absolute; 
+    right: -185px; 
+    color: white; 
+    background-color:#151C37;  
+}
+
+#my-content {
+    margin-top: 4px;
+    margin-left: 100px;
+    height: 35px;
+    width: 250px;
+    background-color: #151C37;
+    color:white;
+    background: url(../img/icons/search.png) no-repeat right;
+}
+
+li.nav-item {
+    margin-left: 57px;
+}
+
+button.btn-gradient{
+    background: linear-gradient(to right, #19d3e8, #af2cff);
+    font-family: "Gilroy-medium";
+}
+
+
+
+.navbar-brand {
+    margin-left: 65px;
+    background:#151C37;
+
+}
+
+.header-right
+{
+    margin-top: 2px;
+    position: absolute; 
+    right: 60px; 
+}
+
+div.card-body
+{
+    margin-left: 10px;
+}
+
+div.card 
+{
+    float: left;
+    border-radius: 20px;
+    border: 0px
+}
+
+img.card-img-top
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 280px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+
+.game-name
+{
+    font-size: 20px;
+}
+.price{
+    color:#6E4AFF;
+    font-size: 22px;
+    margin: 0px;
+    padding-right: 0px;
+}
+
+
+.circle_left2 {
+    border-radius: 50px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin-right: 3%;
+    position: absolute;
+    right: 10.5%; 
+    margin-top: 20px;
+    background-image: url(../img/icons/left_arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.circle_right2 {
+    border-radius: 50px;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    position: absolute; 
+    margin-left: 4%;
+    right: 7%;
+    background-image: url(../img/icons/right_arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    
+}
+
+p.counter
+{
+    margin-top: 35px;
+    position: absolute;
+    right: 11.3%;
+}
+
+.smallrentangle {
+    border-radius: 7px;
+    background-color: #151C37;
+    border: 1.5px solid #8A8D9B;
+    float: left;
+    width: 38px;
+    height: 38px;
+    margin-left: 17px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+div.header_img 
+{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+button.dropdown-btn
+{
+    background-color: #d6d0f0;
+    color: #6E4AFF;
+    border: 0px;
+    border-radius: 7px;
+    font-family: "Gilroy-bold";
+
+}
+
+button.dropdown-btn:hover
+{
+    background-color: #6E4AFF;
+    color: #d6d0f0;
+
+}
+
+img.card-img {
+    border-top-left-radius: 20px; 
+    border-bottom-left-radius: 20px; 
+    height: 350px; 
+    width: 395px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+div.rentanglecard
+{
+    margin-top: -5px;
+    font-family: "Gilroy-semibold";
+    border-radius: 5px;
+    background-color: #d6d0f0;
+    width: 70px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #6E4Aff;
+    font-size: 14px;
+}
+
+.rentanglecardbig2
+{
+    color: white;
+    background-color: #151C37;
+    width: 100%;
+    height: 25px; 
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+  }
+
+span.card-title
+{
+    font-family: "Gilroy-bold";
+    font-size: 18px;
+}
+
+
+
+button.btn-news
+{
+    width: 150px;
+    height: 50px;
+}
+
+
+
+a > button.btn-game
+{
+    font-size: 14px; 
+    width: 60%; 
+    height: 50px; 
+    position: absolute; 
+    top: 30%; 
+    left: 20%;
+    display: none;
+}
+
+
+img.card-img-top:hover {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    filter:brightness(50%);
+}
+
+img.card-img-top:hover +  a > button.btn-game {
+    
+    display: block;
+}
+
+a > button.btn-game:hover
+{
+    display:block;
+}
+
+
+
+div.rentanglecard-second
+    {
+        margin-left: 5px;
+    }
+
+div.fullcard
+{
+    padding-left: 20px;
+}
+
+div.card
+    {
+        margin-bottom: 30px;
+    }
+
+p.game-battlefield-sm
+{
+    display: none;
+}
+
+div.second-pe
+{
+    display: none;
+}
+
+div.newnameblock
+{
+    margin-left: 7.1%; 
+    margin-right: 7%; 
+    max-width: 86.2%; 
+    margin-top: 7.5%; 
+    margin-bottom: 4%;
+}
+
+div.newblock
+{
+    margin-left: 7.1%; 
+    margin-right: 7%; 
+    max-width: 86.2%;
+}
+
+div.newnewsblock
+{
+    padding-top: -300px;
+    margin-left: 7.1%; 
+    margin-right: 7%; 
+    max-width: 86.2%; 
+    margin-bottom: 7.5%;
+}
+
+li {
+    list-style-type: none; 
+   }
+
+div.semi-drop
+    {
+        display: none;
+    }
+
+@media screen and (max-width: 1850px) and (min-width: 1669px){
+    #language {
+        right: -90px; 
+    }
+   
+}
+
+
+@media screen and (max-width: 1740px)  and (min-width: 1400px){
+    #my-content {display: none;}
+    #language {
+        right: -90px; 
+    }
+    div.rentanglecard-second
+    {
+        margin-left: 20px;
+    }
+
+}
+
+
+@media screen and (max-width: 1650px){
+
+    p.sale{
+        display: none;
+    }
+    #fourth
+    {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1550px)  and (min-width: 1400px){
+    h4.game-battlefield
+    {
+       display: none; 
+    }
+    p.game-battlefield-sm
+    {
+        display:inline;
+        font-size: 20px;
+        font-family: "Gilroy-bold";
+    }
+    
+}
+
+
+@media screen and (max-width: 1400px) and (min-width: 1200px) {
+    #my-content {display: none;}
+    
+    #language {
+        display: none;
+    }
+
+    #language {
+        color: white; 
+        background-color:#151C37; 
+        margin-left: 200px;
+    } 
+    #fourth{
+        display: none;
+    }
+    #third {
+        display:none
+    }
+    
+}
+@media screen and (max-width: 1199px) {
+    .header-right {
+        position:sticky;
+        top: 300px;
+        margin-left: -20px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+    }
+    #my-content {
+        display: block;
+        margin-top: 8px;
+        margin-bottom: 8px;
+        margin-left: 0px;
+        left: 35px;
+        width: 200px;
+        
+    }
+    #language {
+        margin-top: 8px;
+        margin-bottom: 8px;
+        position:sticky;
+        top: 300px;
+        margin-left: 0px;
+        border: 1px solid #8A8D9B;
+
+    }
+    .navbar-brand {
+        margin-left: 55px;
+    }
+    
+}
+
